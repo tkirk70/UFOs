@@ -30,9 +30,13 @@ var filters = []
 function updateFilters() {
 
     // 4a. Save the element that was changed as a variable.
-
+  let date = d3.select("#datetime").property("value");
+  let city = d3.select("#city").property("value");
+  let state = d3.select("#state").property("value");
+  let country = d3.select("#country").property("value");
+  let shape = d3.select("#shape").property("value");
     // 4b. Save the value that was changed as a variable.
-
+  let inputDate = d3.event.target.value;
     // 4c. Save the id of the filter that was changed as a variable.
 
   
@@ -60,7 +64,8 @@ function updateFilters() {
   }
   
   // 2. Attach an event to listen for changes to each filter.  updateFilters()?
-  d3.selectAll("#filter-btn").on("click", updateFilters);
+  d3.selectAll("#filter-btn").on("change", updateFilters);
+  text.on("change", handleChange);
   
   // Build the table when the page loads
   buildTable(tableData);
