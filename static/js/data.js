@@ -1,3 +1,5 @@
+// country column came before the state column for benton, ar.  Fixed.
+
 var data = [
   {
     datetime: "1/1/2010",
