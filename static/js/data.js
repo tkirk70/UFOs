@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 // first entry has country column before state.  Fixing.  Code can be displayed incorrectly and program runs.
 
-||||||| ee0800e
-=======
-// country column came before the state column for benton, ar.  Fixed.
-
->>>>>>> c10e94b8f3757f91a41ce08bf3d6ec8d6fd95565
 var data = [
   {
     datetime: "1/1/2010",
