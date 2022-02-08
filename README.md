@@ -6,11 +6,11 @@ OSU Module 11 - Java Script :milky_way:
 
 Unfiltered Table:
 
- ![]("/static/images/no_filter.PNG")
+ ![](/static/images/no_filter.PNG)
 
 Table filtered by state:
 
- ![]("/static/images/search_by_state.PNG")
+ ![](/static/images/search_by_state.PNG)
 
 
 - Summary: One drawback from the project is the lack of data from international locations (other than Canada).  More extensive data would greatly enhance the project and analysis.  Two recommendations are: adding photographs or other recordings from eyewitnesses.  Adding a commited database (perhaps MongoDB) to store files other than simple arrays.
